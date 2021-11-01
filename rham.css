@@ -470,12 +470,12 @@ div.rsvp a {
         box-sizing: border-box;
     }
     .love {
-        width: 44vw;
-        height: 44vw
+        width: 45vw;
+        height: 45vw;
     }
     .love::after {
-        width: 44vw;
-        height: 44vw;
+        width: 45vw;
+        height: 45vw;
     }
     .mr {
         position: absolute;
@@ -486,8 +486,8 @@ div.rsvp a {
         width: auto;
     }
     .love::before {
-        width: 44vw;
-        height: 44vw;
+        width: 45vw;
+        height: 45vw;
     }
     html,
     body {
