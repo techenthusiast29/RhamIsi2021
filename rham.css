@@ -37,8 +37,8 @@ main {
 
 .love {
     background: transparent;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     position: absolute;
     top: 34%;
     left: 0;
@@ -53,8 +53,8 @@ main {
     content: '';
     left: 50%;
     background: transparent;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     position: absolute;
     border-radius: 50%;
     box-shadow: 10px -5px 1px gold, 10px -10px 10px gold;
@@ -66,8 +66,8 @@ main {
     content: '';
     top: -50%;
     background: transparent;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     position: absolute;
     border-radius: 50%;
     transform: rotate(-45deg);
@@ -470,12 +470,12 @@ div.rsvp a {
         box-sizing: border-box;
     }
     .love {
-        width: 40vw;
-        height: 40vw
+        width: 44vw;
+        height: 44vw
     }
     .love::after {
-        width: 40vw;
-        height: 40vw;
+        width: 44vw;
+        height: 44vw;
     }
     .mr {
         position: absolute;
@@ -486,8 +486,8 @@ div.rsvp a {
         width: auto;
     }
     .love::before {
-        width: 40vw;
-        height: 40vw;
+        width: 44vw;
+        height: 44vw;
     }
     html,
     body {
