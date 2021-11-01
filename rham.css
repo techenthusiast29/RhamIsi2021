@@ -19,7 +19,7 @@ main {
 .bg {
     max-width: 100vw;
     height: 100vh;
-    background: linear-gradient(#000, #805300, #50C878, #800020, #805300, #000);
+    background: linear-gradient(#000, #805300, #800020, #805300, #000);
 }
 
 .olatomi {
@@ -85,7 +85,7 @@ main {
 }
 
 .invitation p {
-    background: -webkit-repeating-linear-gradient(45deg, gold 0%, #ffffff 10%);
+    background: -webkit-repeating-linear-gradient(45deg, #fff 0%, white 10%, #fff 33%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -415,6 +415,54 @@ div.rsvp a {
 
 .rs-vp:focus+div.rsvp {
     opacity: 1;
+}
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    animation: pop 30s infinite;
+}
+
+@keyframes pop {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    94% {
+        opacity: 0;
+    }
+}
+
+.msg_float {
+    position: fixed;
+    bottom: -22px;
+    left: 31px;
+    color: #205685;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 1px 1px gold;
+    z-index: 100;
+    font-family: Akronim;
+    animation: pop 30s infinite;
+}
+
+.my_whatsapp_float {
+    margin-top: 16px;
 }
 
 @media only screen and (max-width:600px) {
